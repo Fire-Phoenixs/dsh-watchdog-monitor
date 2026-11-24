@@ -1,0 +1,8 @@
+node_modules/
+backups/
+*.tgz
+*.tmp
+snapshot.json
+descriptions.json
+registry.json
+docs/READONLY-SMOKE.json
