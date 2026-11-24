@@ -19,7 +19,9 @@
 
 ### 从 npm 安装
 
-包名 `dsh-watchdog-monitor`。发布到 npm 后，可在 **插件 → 添加插件** 直接填包名，无需本地文件：
+[![npm](https://img.shields.io/npm/v/dsh-watchdog-monitor?style=flat-square)](https://www.npmjs.com/package/dsh-watchdog-monitor)
+
+包名 `dsh-watchdog-monitor`，已发布到 npm。在 **插件 → 添加插件** 直接填包名即可，无需本地文件：
 
 ```
 dsh-watchdog-monitor
