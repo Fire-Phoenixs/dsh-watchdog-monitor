@@ -10,10 +10,10 @@
 
 ## 桌面安装
 
-包来源二选一：[Releases](https://github.com/Fire-Phoenixs/dsh-watchdog-workspace/releases) 下载 `dsh-watchdog-workspace-0.1.4.tgz`，或在源码目录执行 `npm pack` 自行打包。
+包来源二选一：[Releases](https://github.com/Fire-Phoenixs/dsh-watchdog-monitor/releases) 下载 `dsh-watchdog-monitor-0.1.4.tgz`，或在源码目录执行 `npm pack` 自行打包。
 
 1. 打开 DSH 左侧 **插件 → 添加插件**。
-2. 输入该 `.tgz` 的完整绝对路径，例如 `C:\Users\<你的用户名>\Downloads\dsh-watchdog-workspace-0.1.4.tgz`。
+2. 输入该 `.tgz` 的完整绝对路径，例如 `C:\Users\<你的用户名>\Downloads\dsh-watchdog-monitor-0.1.4.tgz`。
 3. 确认安装，按桌面提示重新加载。左侧出现「看门狗」。
 4. 点击「管理条目」，可编辑宿主和条目 JSON。保存只改变本插件台账，不改变计划任务、systemd、cron 或 DSH schedule。
 

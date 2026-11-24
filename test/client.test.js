@@ -7,7 +7,7 @@ test('client uses the installed DSH loader and core sidebar injection', async ()
   const code = await readFile(new URL('../lib/client.js', import.meta.url), 'utf8');
   let definition;
   vm.runInNewContext(code, { window: { __ModuleLoader__: { load(value) { definition = value; } } } });
-  assert.equal(definition.id, 'dsh-watchdog-workspace');
+  assert.equal(definition.id, 'dsh-watchdog-monitor');
   const plugin = definition.factory(id => {
     assert.ok(['react', 'react-dom/client'].includes(id));
     return id === 'react' ? { createElement() {} } : { createRoot() {} };

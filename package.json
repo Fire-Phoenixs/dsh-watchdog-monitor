@@ -1,5 +1,5 @@
 {
-  "name": "dsh-watchdog-workspace",
+  "name": "dsh-watchdog-monitor",
   "version": "0.1.4",
   "description": "可注册、只读的看门狗工作区",
   "type": "module",

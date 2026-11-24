@@ -13,7 +13,7 @@
 
 源码上传范围：`lib/`、`test/`、`package.json`、`cordis.patch.yml`、`README.md`、`SELFTEST.md`、`BADGE.md`、`RELEASE.md`、`.gitignore` 和 `docs/DSH-API-EVIDENCE.md`。不要把本机 `backups/`、实际台账/缓存/简介 JSON、只读实机采集摘要加入仓库；.gitignore 已列出这些本地文件。
 
-发布附件：`dsh-watchdog-workspace-0.1.4.tgz`。该包不包含本机台账、缓存、备份或采集摘要。
+发布附件：`dsh-watchdog-monitor-0.1.4.tgz`。该包不包含本机台账、缓存、备份或采集摘要。
 
 DSH 桌面插件 → 添加插件支持本地包；远程发布地址需上传后再补入 README，当前不写虚构仓库地址。GitHub README 可使用 BADGE.md 提供的 Built with Codex 徽章。
 
