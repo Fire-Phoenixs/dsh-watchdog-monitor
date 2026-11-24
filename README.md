@@ -1,5 +1,7 @@
 # 看门狗工作区 0.1.4
 
+![Built with Codex](https://img.shields.io/badge/Built%20with-Codex-111827?style=flat-square)
+
 面向 DSH 0.2.2-rc.5 的只读监控插件。左侧「看门狗」打开简洁清单，点击才查看判定依据、周期、日志。用户和 AI 均可注册宿主、监控条目；初始配置只是可编辑模板，不限制项目名称和数量。
 
 首页可切换“全部 / 只看需处理”。待处理包含 FAIL、STALE 和 UNKNOWN，顶部始终保留全量汇总，另显示当前可见数量。未知项会显示未配置、权限不足、连接失败、未验证等分类，处理提示放在详情里；分类只解释现有状态，不改变健康判定。
@@ -8,8 +10,10 @@
 
 ## 桌面安装
 
+包来源二选一：[Releases](https://github.com/Fire-Phoenixs/dsh-watchdog-workspace/releases) 下载 `dsh-watchdog-workspace-0.1.4.tgz`，或在源码目录执行 `npm pack` 自行打包。
+
 1. 打开 DSH 左侧 **插件 → 添加插件**。
-2. 输入完整包路径：`D:\Code Project\AI WorkSpace\dsh-watchdog-workspace\dsh-watchdog-workspace-0.1.4.tgz`。
+2. 输入该 `.tgz` 的完整绝对路径，例如 `C:\Users\<你的用户名>\Downloads\dsh-watchdog-workspace-0.1.4.tgz`。
 3. 确认安装，按桌面提示重新加载。左侧出现「看门狗」。
 4. 点击「管理条目」，可编辑宿主和条目 JSON。保存只改变本插件台账，不改变计划任务、systemd、cron 或 DSH schedule。
 
